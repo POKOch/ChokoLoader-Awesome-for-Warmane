@@ -85,9 +85,8 @@ World of Warcraft/
 
 1. Launch your **patched** `Wow.exe` 
 2. At the login screen, **double-click** `inject.bat` (edit in inject.bat "Wow.exe" if yor WOW called anythink else )
-3. **⚡ IMPORTANT:** A **VMProtect dialog box** will appear — click **"OK"** to continue
-4. Wait 2-3 seconds
-5. Log in and play!
+3. Wait 2-3 seconds
+4. Log in and play!
 
 ### Option B — Manual (advanced)
 
@@ -97,30 +96,11 @@ World of Warcraft/
    ```
    DLL_Injector.exe Wow.exe Choko.dll
    ```
-4. **⚡ IMPORTANT:** A **VMProtect dialog box** will appear — click **"OK"** to continue
-5. You should see "Injection successful"
-6. Log in and play!
+4. You should see "Injection successful"
+5. Log in and play!
 
 > 💡 **Tip:** To open cmd in the game folder, type `cmd` in the
 > Windows Explorer address bar while in the WoW folder, then press Enter.
-
----
-
-## ⚡ VMProtect Dialog
-
-When you inject `Choko.dll`, you will see a popup window from VMProtect:
-
-```
-┌──────────────────────────────────┐
-│                                  │
-│   VMProtect message / warning    │
-│                                  │
-│            [ OK ]                │
-│                                  │
-└──────────────────────────────────┘
-```
-
-**This is normal and expected.** Simply click **"OK"** and the game will continue loading.
 
 ---
 
@@ -148,8 +128,6 @@ if %ERRORLEVEL% EQU 0 (
 ) else (
     echo.
     echo [!!] Injection failed. Make sure WoW is running.
-    echo [!!] Did you click OK on the VMProtect dialog?
-    echo [!!] Try running this .bat as Administrator.
 )
 
 echo.
@@ -167,15 +145,12 @@ pause
 
 | Problem | Solution |
 |---------|----------|
-| VMProtect dialog appeared | This is normal — just click **OK** |
-| `Injection failed` | Make sure WoW.exe is running and you clicked OK on VMProtect dialog |
 | `DLL not found` | Make sure all files are in the same folder as Wow.exe |
 | `Access denied` | Right-click `inject.bat` → **Run as Administrator** |
 | Game crashes on inject | Make sure you patched with `AwesomePatcher.exe` first |
 | Awesome features not working | Wait a few seconds after injection before logging in |
 | Awesome UI/settings missing | Make sure `AwesomeCVar` folder is in `Interface/AddOns/` |
 | Antivirus blocks files | Add your WoW folder to antivirus exclusions |
-| VMProtect dialog does not appear | You may be running the unpatched Wow.exe — run the patcher first |
 
 ---
 
@@ -183,7 +158,6 @@ pause
 
 | ✅ DO | ❌ DON'T |
 |-------|----------|
-| Click OK on VMProtect dialog | Don't close the VMProtect dialog with X |
 | Inject at login screen | Don't inject while in-game |
 | Close game when done | Don't use Logout button |
 | Use on alt accounts first | Don't use on your main without testing |
@@ -196,7 +170,6 @@ pause
 
 - Works with **WoW 3.3.5a (12340)** — Warmane servers
 - Requires the **specific Wow.exe** that matches AwesomeWoTLK
-- A **VMProtect dialog** will appear on every injection — always click **OK**
 - If the game freezes during injection, kill `Wow.exe` in Task Manager and try again
 - **Always test on a throwaway account first**
 
@@ -209,7 +182,7 @@ When a new version is released:
 2. Replace the old files with the new ones
 3. If `AwesomePatcher.exe` is included — run it again
 4. Update `AwesomeCVar` addon folder if a new version is provided
-5. Launch WoW → Inject `Choko.dll` → click OK on VMProtect dialog 
+5. Launch WoW → Inject `Choko.dll`  
 
 ---
 

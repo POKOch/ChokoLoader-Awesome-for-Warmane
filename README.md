@@ -1,6 +1,6 @@
 # ChokoLoader — AwesomeWoTLK on Warmane
 
-> **Use at your own risk. No guarantees. You are fully responsible for your account.**
+> ⚠️**Use at your own risk. No guarantees. You are fully responsible for your account.**⚠️
 
 A tool that allows [AwesomeWoTLK](https://github.com/noname08662/awesome_wotlk) modifications to work
 on Warmane (Lordaeron / Icecrown / Frostmourne) without detection.

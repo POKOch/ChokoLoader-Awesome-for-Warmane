@@ -83,8 +83,8 @@ World of Warcraft/
 
 ### Option A — Easy (recommended)
 
-1. Launch your **patched** `Wow.exe`
-2. At the login screen, **double-click** `inject.bat`
+1. Launch your **patched** `Wow.exe` 
+2. At the login screen, **double-click** `inject.bat` (edit in inject.bat "Wow.exe" if yor WOW called anythink else )
 3. **⚡ IMPORTANT:** A **VMProtect dialog box** will appear — click **"OK"** to continue
 4. Wait 2-3 seconds
 5. Log in and play!
